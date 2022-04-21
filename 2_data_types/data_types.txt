@@ -1,0 +1,32 @@
+Tipos de datos en Java
+
+PRIMITIVOS
+
+Enteros:
+- long (64 bits): -9,223,372,036,854,775,808 a 9,223,372,854,775,807
+- int (32 bits): -2,147,483,648 a 2,147,483,647
+- short (16 bits): -32,768 a 32,767
+- byte (8 bits): -128 a 127
+
+Punto decimal:
+- double (64 bits): 4.9e-324 a 1.8e+308
+- float (32 bits): 1.4e-045 a 3.4e+038
+
+Caracter:
+- char (16 bits): guarda un solo caracter/letra o valor ASCII
+
+Booleano:
+- boolean (8 bits): guarda true o false
+
+NO PRIMITIVOS
+
+Este tipo de datos permite almacenar 'null' y tambien tienen ciertos metodos que pueden utilzarse
+
+- Integer: almacena valores enteros pero permite almacenar null
+
+Cadenas:
+- String: almacena cadenas de texto
+
+CONSTANTES
+
+Se declaran con la palabra final antes de la declaracion de la variable: final int NUMERO = 10;

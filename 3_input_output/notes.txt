@@ -1,0 +1,36 @@
+Entrada y salida de datos por consola
+
+import java.util.Scanner;
+
+Debe instanciarse un scanner de informacion:
+
+Scanner input = new Scanner(System.in);
+
+dato = input.nextTipoDeDato();
+
+En el caso de cadenas de texto:
+
+input.next(); -> guarda la cadena hasta el primer espacio
+input.nextLine(); -> guarda la cadena incluyendo espacios
+
+En el caso de caracteres:
+
+input.next().charAt(0) -> guarda el primer caracter que encuentre
+
+Entrada y salida de datos por JOptionPane
+
+import javax.swing.JOptionPane;
+
+variable = JOptionPane.showInputDialog("User prompt: ");
+
+JOptionPane recibe estrictamente cadenas por lo que en caso de caracteres:
+
+caracter = JOptionPane.showInputDialog("User prompt: ").charAt(0);
+
+Para varibale numericas:
+
+variable = TipoDeVariable.parseTipoDeVariable(JOptionPane.showInputDialog("user prompt: "));
+
+Al momento de mostrar la informacion en pantalla:
+
+JOptionPane.showMessageDialog(null,"Information: "+variable);
